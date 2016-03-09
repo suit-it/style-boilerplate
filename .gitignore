@@ -1,6 +1,6 @@
+.gulp-scss-cache
 .sass-cache/
 .DS_Store
 vendors/
-css/
 node_modules/
 
