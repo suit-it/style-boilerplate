@@ -1,0 +1,23 @@
+// **************** Color Scheme ****************************
+// If you like to creating a new Color Scheme.
+// You can use an online App like the following:
+
+// http://paletton.com/
+// https://color.adobe.com/de/create/color-wheel/
+// https://coolors.co/app
+
+$color-primary: #FF0000;      // Background Color of the Site
+$color-secondary: #FF4040;    // Navbar Color
+$color-teritiary: #FF7373;    // Side Color
+$color-quaternary: #A60000;   // Text Color
+$color-quinary: #BF3030;      // Little accents
+
+// Alias Color Scheme
+$color-first: $color-primary;
+$color-second: $color-secondary;
+$color-third: $color-teritiary;
+$color-fourth: $color-quaternary;
+$color-fifth: $color-quinary;
+// **********************************************************
+
+

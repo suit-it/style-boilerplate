@@ -1,0 +1,22 @@
+{
+  "name": "scss",
+  "authors": [
+    "Michael Golenia <golenia@suit-it.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendors/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6"
+  }
+}

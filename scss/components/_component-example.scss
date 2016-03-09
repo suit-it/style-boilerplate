@@ -1,0 +1,40 @@
+// This File demonstrates how to use components. Please remove this file after you have creating your own first component.
+
+// Components are the primary building blocks of your project, the more you leverage them the better.
+
+// csstyle's focus on components make it a perfect match for Web/Angular/Ember/React components.
+// Tip: create a separate file for each component to make them easy to find & edit.
+
+// SCSS Tweak
+@include component(button) {
+  background: #6BD9ED;
+  padding: 15px;
+
+  // Options override the component's default styling.
+  @include option(action){
+    color: #1F1F1F;
+    background: #A7E040;
+  }
+
+  // Components are composed of parts — child elements of the component that can be styled.
+  // Parts are very flexible. They can nest in other parts, react to component options,
+  // or even have their own dedicated options. Parts are applied using the component name
+  // followed by __ and the part name.
+  @include part(icon){
+    font-size: 34px;
+    position: relative;
+    top: 10px;
+
+    @include option(rocket){
+      &:before {
+        content: "\e600";
+      }
+    }
+  }
+}
+
+// HTML
+// <a class="button --action">
+//   Register Now
+//   <span class="button__icon --rocket"></span>
+// </a>

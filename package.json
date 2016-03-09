@@ -1,0 +1,35 @@
+{
+  "name": "style-boilerplate",
+  "version": "1.0.0",
+  "description": "A Style-Boilerplate useing csstyle.io",
+  "main": "Gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0",
+    "gulp-sass-glob": "^1.0.4",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglifycss": "^1.0.6",
+    "uglifycss": "0.0.20"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/suit-it/style-boilerplate.git"
+  },
+  "keywords": [
+    "style",
+    "styleboilerplate",
+    "csstyle",
+    "frontend"
+  ],
+  "author": "Michael Golenia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suit-it/style-boilerplate/issues"
+  },
+  "homepage": "https://github.com/suit-it/style-boilerplate#readme"
+}

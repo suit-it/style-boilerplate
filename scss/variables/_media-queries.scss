@@ -1,0 +1,78 @@
+// **************** Media Queries ****************************
+$phone-width: $screen-xs-min;
+$tablet-width: $screen-sm-min;
+$desktop-width: $screen-md-min;
+$tv-width: $screen-lg-min;
+
+@mixin xs {
+  @media only screen and (max-width : #{$screen-sm-min - 1}) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media only screen and (min-width : #{$screen-sm-min}) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media only screen and (min-width : #{$screen-md-min}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media only screen and (min-width : #{$screen-lg-min}) {
+    @content;
+  }
+}
+
+@mixin phone {
+  @media only screen and (max-width : #{$phone-width- 1}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+@mixin tv {
+  @media (min-width: #{$tv-width}) {
+    @content;
+  }
+}
+
+@mixin retina {
+  @media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+    @content;
+  }
+}
+
+@mixin print {
+  @media print {
+    @content;
+  }
+}
+
+// How to use:
+
+// @include tablet {
+//   ...
+// }
+// ***********************************************************

@@ -1,0 +1,28 @@
+{
+  "name": "style-boilerplate",
+  "description": "A Style-Boilerplate useing csstyle.io",
+  "main": "Gulpfile.js",
+  "authors": [
+    "Michael Golenia"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "style",
+    "styleboilerplate",
+    "csstyle",
+    "frontend"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendors/",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "csstyle": "^1.5.0"
+  }
+}

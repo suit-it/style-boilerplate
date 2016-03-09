@@ -1,0 +1,5 @@
+{
+  "directory": "vendors/",
+  "analytics": false,
+  "timeout": 120000
+}
