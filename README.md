@@ -12,7 +12,7 @@ The goal is to have a quick start, when trying out new things in HTML, SCSS and 
   
         $ ./install
   
-  Option B (if option A doesn't work):
+  Option B (if option a doesn't work):
   
   1. Install all dependencies
 
