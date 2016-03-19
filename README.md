@@ -7,10 +7,11 @@ The goal is to have a quick start, when trying out new things in HTML, SCSS and 
 
 ## Getting Started
 
-You need to install the following awesome tools:
-- https://nodejs.org/en/
+If you haven't done yet, you need to install the following tools:
+
+- https://nodejs.org
 - https://www.gulpjs.com
-- https://www.browsersync.io/
+- https://www.browsersync.io
 - http://bower.io
 
   Run all commands in your Terminal.
